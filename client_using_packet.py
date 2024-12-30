@@ -492,7 +492,7 @@ class Login_Receive(QThread):
 port = 8080
 clientSock = socket(AF_INET, SOCK_STREAM)
 clientSock.connect(('sangminbabo.com', port))
-#print(clientSock)
+print(clientSock)
 #print(clientSock.family)
 #print(clientSock.fileno())
 #print(clientSock.proto)
